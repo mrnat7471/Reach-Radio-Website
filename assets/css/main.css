@@ -1,0 +1,273 @@
+.standardheader {
+  background-color: var(--standard_header);
+}
+
+.drive-mode {
+  --bg: #181a1b;
+  --color: white;
+  --shadow: #2d2f30 3px 3px 3px 3px;
+  --color_foot: #2d2f30;
+  --show: #2d2f30;
+  --teamcolor: #2a2d2f;
+  --nav: rgb(169,169,169);
+  --back-modal: rgb(56, 61, 63);
+  --banner: url('https://i.imgur.com/WHEi3HW.jpeg');
+  --nav-color: rgba(63,28,94, 0.7);
+  --nav-shadow-color: rgba(63,28,94, 0.6);
+  --nav-text-color: white;
+  --standard_header: rgb(63,28,94);
+  --news-color: rgba(102,102,102,.1);
+  --navbar-toggle: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.dark-mode {
+  --bg: #181a1b;
+  --color: white;
+  --shadow: #2d2f30 3px 3px 3px 3px;
+  --color_foot: #2d2f30;
+  --show: #2d2f30;
+  --teamcolor: #2a2d2f;
+  --nav: rgb(169,169,169);
+  --back-modal: rgb(56, 61, 63);
+  --banner: url('~assets/images/banner/banner.webp');
+  --nav-color: rgba(0, 61, 145, 0.6);
+  --nav-shadow-color: rgba(0, 61, 145, 0.6);
+  --nav-text-color: white;
+  --standard_header: rgb(13,67,99);
+  --news-color: rgba(102,102,102,.1);
+  --navbar-toggle: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+.light-mode {
+    --bg: white;
+    --color: black;
+    --shadow: #d9d9d9 3px 3px 3px 3px;
+    --color_foot: #d3d3d3;
+    --show: #bdbdbd;
+    --teamcolor: #e0e0e0;
+    --nav: #838383;
+    --banner: url('~assets/images/banner/banner.webp');
+    --back-modal:  white;
+    --nav-color: rgba(0, 61, 145, 0.6);
+    --nav-shadow-color: rgba(0, 61, 145, 0.6);
+    --nav-text-color: white;
+    --standard_header: rgb(13,67,99);
+    --news-color: rgba(0,0,0,.2);
+    --navbar-toggle: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+.navbar-toggler-icon {
+  background-image: var(--navbar-toggle)!important;
+}
+.logo-changer {
+  min-height: 156px;
+  min-width: 277px;
+  background: var(--logo);
+  background-size: var(--logo-size);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.catch_up_color{
+  color: var(--color);
+}
+.catch_up_color:hover{
+  color: var(--color);
+}
+/* Standard CSS */
+.header-holder {
+  background: var(--banner);
+}
+.react-nav {
+  background-color: var(--nav-color);
+  box-shadow: 1px 2px 10px var(--nav-shadow-color);
+}
+.nav-link {
+  color: var(--nav-text-color)!important;
+}
+
+html {
+  background-color: var(--bg)!important;
+}
+.dropdown-menu {
+  background-color: var(--bg);
+  border-color: rgba(140, 130, 115, 0.15);
+}
+.dropdown-item:hover {
+  background-color: var(--color_foot);
+  border-color: rgba(140, 130, 115, 0.15);
+  color: var(--color);
+}
+.dropdown-item {
+  color: var(--color);
+}
+/* Modal Changes */
+.form-control {
+  background-color: var(--back-modal);
+  color: var(--color);
+}
+.card {
+  background-color: var(--color_foot);
+}
+.form-control:focus {
+  background-color: var(--back-modal);
+  color: var(--color);
+}
+.close {
+  color:var(--color);
+}
+.close:hover {
+  color:var(--color);
+}
+.modal-header {
+  background-color:var(--back-modal);
+  color:var(--color);
+}
+.modal-body {
+  background-color:var(--back-modal);
+  color:var(--color);
+}
+
+
+/* Index Page */
+.page {
+    background-color: var(--bg);
+    color: var(--color);
+}
+.streamers-border{
+  box-shadow: 0 0 4px 2px var(--news-color);
+}
+
+.streamers-border:hover{
+  box-shadow: 0 0 4px 4px var(--news-color);
+}
+
+.home-pbox{
+  box-shadow: 0 0 4px 2px var(--news-color);
+  color:var(--color);
+}
+
+.home-pbox:hover{
+  box-shadow: 0 0 8px 4px var(--news-color);
+}
+.home-pbox-1{
+  box-shadow: 0 0 4px 2px var(--news-color);
+  color:var(--color);
+}
+
+.home-pbox-1:hover{
+  box-shadow: 0 0 8px 4px var(--news-color);
+}
+.home-pbox-text {
+  color: var(--color);
+  margin-top: 11px;
+  text-align: center;
+}
+
+  /* Header */
+  .dark {
+    background-color: white!important;
+    color: var(--color)!important;
+  }
+  /* Footer */
+  .footer-section {
+    background-color: var(--color_foot)!important;
+    color: var(--color);
+  }
+  .icon-footer {
+    color: var(--color)!important;
+  }
+  .fyfe-footer {
+    color: var(--color)!important;
+  }
+  /* Timetable */
+  .show2 {
+    background-color: var(--show)!important;
+    color: var(--color)!important;
+  }
+  /* Team */
+  .team-member {
+    background-color: var(--teamcolor)
+  }
+  .team-member2 {
+    background-color: var(--teamcolor)
+  }
+  /* Contact */
+  .cbox {
+    background-color: var(--teamcolor);
+    box-shadow: var(--shadow)!important;
+  }
+  /* News All */
+  .nbox {
+    background-color: var(--bg)!important;
+    box-shadow: var(--shadow)!important;
+    margin: 7px!important;
+  }
+  .news-link {
+    color: var(--color)!important;
+  }
+  /* Podcasts */
+  .pbox {
+    background-color: var(--bg)!important;
+    box-shadow: var(--shadow)!important;
+    color: var(--color);
+  }
+  .traffic-page {
+    background-color: var(--teamcolor);
+    min-height: 180px!important;
+  }
+  .streamers-border{
+    border-color: var(--color);
+  }
+  .streamers-border-featured{
+    border-color: var(--color);
+  }
+
+  body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  body::-webkit-scrollbar-track {
+    background: var(--bg);        /* color of the tracking area */
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--nav);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid var(--bg);  /* creates padding around scroll thumb */
+  }
+
+  .border2 {
+    display: block;
+    margin: 10px 0 25px;
+  }
+  .border3 {
+    margin: 0 0 -2px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    border-bottom: 2px solid var(--standard_header);
+  }
+  .mobile-center {
+    text-align:center;
+  }
+
+  .apple_music_logo{
+    margin-top:5px;
+    background-image:url("https://api.reachradio.co.uk/assets/listen_on_apple_music_small_badge.svg");
+    height: 15px;
+    width: 73px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 990px) {
+ .pod-player {
+    padding-bottom: 108px;
+  }
+}
+@media (max-width: 990px) {
+    .pod-player {
+       padding-bottom: 20px;
+     }
+   }
+@media (max-width: 490px) {
+  .mobile-center {
+    text-align:center;
+  }
+}

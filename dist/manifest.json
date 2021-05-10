@@ -1,0 +1,21 @@
+{
+  "name": "Reach Radio",
+  "short_name": "reachradio",
+  "icons": [
+    {
+      "src": "/static/img/icons/192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/img/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "background_color": "#FFBB28",
+  "theme_color": "#FFBB28"
+}
