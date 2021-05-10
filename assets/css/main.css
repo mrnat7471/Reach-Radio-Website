@@ -1,0 +1,128 @@
+.standardheader {
+  background-color: var(--standard_header);
+}
+.dark-mode {
+  --bg: #181a1b;
+  --color: white;
+  --shadow: #2d2f30 3px 3px 3px 3px;
+  --color_foot: #2d2f30;
+  --show: #2d2f30;
+  --teamcolor: #303131;
+  --nav: rgb(169,169,169);
+  --back-modal: rgb(56, 61, 63);
+  --banner: url('~assets/images/banner/banner.webp');
+  --nav-color: rgba(0, 61, 145, 0.6);
+  --nav-shadow-color: rgba(0, 61, 145, 0.6);
+  --nav-text-color: white;
+  --standard_header: rgb(13,67,99);
+  --news-color: rgba(102,102,102,.1);
+  --navbar-toggle: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+.light-mode {
+    --bg: white;
+    --color: black;
+    --shadow: #d9d9d9 3px 3px 3px 3px;
+    --color_foot: #d3d3d3;
+    --show: #bdbdbd;
+    --teamcolor: #f5f5f5;
+    --nav: #838383;
+    --banner: url('~assets/images/banner/banner.webp');
+    --back-modal:  white;
+    --nav-color: rgba(0, 61, 145, 0.6);
+    --nav-shadow-color: rgba(0, 61, 145, 0.6);
+    --nav-text-color: white;
+    --standard_header: rgb(13,67,99);
+    --news-color: rgba(0,0,0,.2);
+    --navbar-toggle: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+.form-control {
+  background-color: var(--back-modal);
+  color: var(--color);
+}
+.form-control:focus {
+  background-color: var(--back-modal);
+  color: var(--color);
+}
+
+/* Standard CSS */
+.header-holder {
+  background: var(--banner);
+}
+.react-nav {
+  background-color: var(--nav-color);
+  box-shadow: 1px 2px 10px var(--nav-shadow-color);
+}
+html {
+  background-color: var(--bg)!important;
+}
+/* Index Page */
+.page {
+    background-color: var(--bg);
+    color: var(--color);
+}
+
+.home-pbox{
+  box-shadow: 0 0 4px 2px var(--news-color);
+  color:var(--color);
+}
+
+.home-pbox:hover{
+  box-shadow: 0 0 8px 4px var(--news-color);
+}
+.home-pbox-text {
+  color: var(--color);
+  margin-top: 11px;
+  text-align: center;
+}
+
+  /* Header */
+  .dark {
+    background-color: white!important;
+    color: var(--color)!important;
+  }
+  /* Footer */
+  .footer-section {
+    background-color: var(--teamcolor)!important;
+    color: var(--color);
+  }
+  .fullplayer {
+    background-color: var(--teamcolor)!important;
+    color: var(--color);
+  }
+  .footer-icons{
+    color: var(--color)!important;
+  }
+  /* News All */
+  .nbox {
+    background-color: var(--bg)!important;
+    box-shadow: var(--shadow)!important;
+    margin: 7px!important;
+  }
+  .news-link {
+    color: var(--color)!important;
+  }
+
+  body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  body::-webkit-scrollbar-track {
+    background: var(--bg);        /* color of the tracking area */
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--nav);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid var(--bg);  /* creates padding around scroll thumb */
+  }
+
+  .border2 {
+    display: block;
+    margin: 10px 0 25px;
+  }
+  .border3 {
+    margin: 0 0 -2px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    border-bottom: 2px solid var(--standard_header);
+  }
+  
